@@ -24,14 +24,18 @@ I wanted to learn how Git tracks commits and how to manipulate commit history fo
 - Fully automated add, commit, and push process.
 - Ideal for portfolio demonstration or learning Git internals.
 
+  ## How it works
+
+The script writes a JSON file and commits it multiple times with different dates, creating a consistent-looking GitHub contribution graph.
+
+## Future Improvements
+
+- Add more complex commit messages
+- Create a GUI for easier use
+- Support for different date ranges and patterns
+
+
 ---
-
-## Installation
-
-```bash
-git clone https://github.com/Vedx6/TimeChanger.git
-cd TimeChanger
-npm install
 
 ## WARNING ⚠️
 
@@ -41,3 +45,11 @@ This script is purely for fun and learning. Don’t use it to fool recruiters or
 
 *Project created by Vedx6, the Master of Time and Commits*  
 [GitHub Profile](https://github.com/Vedx6) | vedanttt06@gmail.com
+
+## Installation
+
+```bash
+git clone https://github.com/Vedx6/TimeChanger.git
+cd TimeChanger
+npm install
+
