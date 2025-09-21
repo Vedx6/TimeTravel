@@ -1,7 +1,6 @@
 # TimeWarp Commits
 
-Automate the creation of backdated Git commits to customize your GitHub contributions graph.
-
+Time Change tool
 ---
 
 ## Overview
