@@ -1,30 +1,37 @@
-# TimeWarp Commits 🕰️🌀
+# TimeWarp Commits
 
-Ever wished you could travel back in time and make your GitHub profile look like you were coding like a mad genius all year long?  
-Well, now you can! This wild Node.js script *literally warps time* (or at least fakes it) by creating commits in the past, making your contribution graph look like a hacker’s diary.
+Automate the creation of backdated Git commits to customize your GitHub contributions graph.
 
-## Features
+---
 
-- Generate hundreds of backdated commits with random funky messages 🐙
-- Customize your “time warp” window — pick any dates from the past or future (why not?)
-- Writes to a JSON file but *makes Git history dance* 💃
-- Uses magic libraries: `moment`, `simple-git`, `random`, and a sprinkle of dark coding arts ⚡
+## Overview
+
+**TimeWarp Commits** is a Node.js script that generates multiple Git commits with timestamps set in the past. This allows you to visually demonstrate consistent activity on your GitHub profile over a custom time period.
+
+The script uses `moment` for flexible date manipulation, `simple-git` for seamless Git operations, and `jsonfile` to update a data file with each commit.
+
+---
 
 ## Why?
 
-Because who doesn’t want to look like a coding wizard? Also, it’s a great way to learn Git internals and Node.js scripting without selling your soul.
+I wanted to learn how Git tracks commits and how to manipulate commit history for fun and learning.
 
-## How to Use
 
-1. Clone this repo (or fork to customize)
-2. Install dependencies:
-    ```
-    npm install
-    ```
-3. Run the script and watch your timeline bend:
-    ```
-    node index.js
-    ```
+## Features
+
+- Create multiple backdated commits automatically.
+- Customize the number of commits and the date range.
+- Fully automated add, commit, and push process.
+- Ideal for portfolio demonstration or learning Git internals.
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/Vedx6/TimeChanger.git
+cd TimeChanger
+npm install
 
 ## WARNING ⚠️
 
